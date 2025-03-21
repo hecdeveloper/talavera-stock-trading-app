@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.9'
 
 services:
   # Backend service
@@ -15,6 +15,8 @@ services:
   frontend:
     build: ./frontend
     container_name: stock-frontend
+    ports:
+      - "3001:3000"
     depends_on:
       - backend
     networks:
