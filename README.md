@@ -2,7 +2,7 @@
 
 A real-time stock trading simulator that allows users to buy and sell stocks with virtual money. This project demonstrates WebSocket-based real-time updates, charting with optimistic UI updates, and a responsive design.
 
-![Stock Trading App Screenshot](https://via.placeholder.com/800x400?text=Stock+Trading+App)
+
 
 ## Features
 
